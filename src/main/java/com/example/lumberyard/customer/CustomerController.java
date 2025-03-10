@@ -43,6 +43,5 @@ public class CustomerController {
             @RequestParam(required = false) Integer memberDurationInMonths) {
         customerService.updateCustomer(customerId, name, email, memberDurationInMonths);
     }
-
 }
 

@@ -19,7 +19,7 @@ public class Customer {
     private Long id;
     private String name;
     private String email;
-    private Integer memberDurationInMonths; // New field
+    private Integer memberDurationInMonths;
 
     public Customer() {
     }
@@ -30,7 +30,6 @@ public class Customer {
         this.memberDurationInMonths = memberDurationInMonths;
     }
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
